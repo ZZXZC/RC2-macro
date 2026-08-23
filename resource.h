@@ -1,0 +1,50 @@
+#include <windows.h>
+
+// Control IDs
+#define IDC_TAB              110
+
+// General
+#define IDC_CHK_ALWAYSONTOP  220
+#define IDC_CHK_AUTOMINIMIZE 221
+#define IDC_CHK_AUTOFOCUS    222
+#define IDC_CHK_AUTOMAXIMIZE 223
+#define IDC_MONITOR_COMBO    210
+
+// Cast
+#define IDC_BTN_SETCASTREGION 300
+#define IDC_EDT_CASTCOLOR     301
+#define IDC_EDT_CASTTOLERANCE 302
+#define IDC_EDT_CASTSCAN      303
+#define IDC_EDT_CASTTIMEOUT   304
+#define IDC_EDT_RECASTDELAY   305
+#define IDC_CHK_DISMISSPOPUP  306
+#define IDC_EDT_DISMISSDELAY  307
+
+// Bar
+#define IDC_BTN_SELECTAREA    400
+#define IDC_EDT_BARCOLOR      401
+#define IDC_EDT_TARGETLINE    402
+#define IDC_EDT_BARTOLERANCE  403
+#define IDC_EDT_BARSCAN       404
+#define IDC_EDT_CLICKCOOLDOWN 405
+#define IDC_EDT_CONTACTPAD    406
+#define IDC_EDT_CENTERWINDOW  407
+#define IDC_EDT_BARTIMEOUT    408
+#define IDC_EDT_ENDWAIT       409
+#define IDC_BTN_CALIBRATE     410
+
+// Actions
+#define IDC_BTN_START         500
+#define IDC_BTN_STOP          501
+#define IDC_BTN_EXIT          502
+#define IDC_LBL_STATUS        600
+
+// Hotkeys
+#define IDC_BTN_REBIND_START  700
+#define IDC_BTN_REBIND_REGION 701
+#define IDC_BTN_REBIND_EXIT   702
+#define IDC_BTN_REBIND_PAUSE  703
+#define IDC_BTN_RESET_START   710
+#define IDC_BTN_RESET_REGION  711
+#define IDC_BTN_RESET_EXIT    712
+#define IDC_BTN_RESET_PAUSE   713
